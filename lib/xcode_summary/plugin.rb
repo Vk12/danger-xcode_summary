@@ -158,7 +158,7 @@ module Danger
     end
 
     def warnings(xcode_summary)
-      if ignores_ warnings
+      if ignores_warnings
         return []
       end
       
